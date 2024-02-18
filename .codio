@@ -1,0 +1,15 @@
+{
+// Configure your Run and Preview buttons here.
+
+// Run button configuration
+  "commands": {
+        "Run Your Program": "cd /home/codio/workspace/submit; python3 ~/workspace/submit/make_website.py",
+        "Run Student Tests": "cd /home/codio/workspace/submit; python3 ~/workspace/submit/make_website_test.py"
+  },
+
+// Preview button configuration
+  "preview": {
+        "View HTML Files": "https://{{domain}}/{{index}}"
+  },
+  "autogradeTestScripts": [".guides/secure/control/run.sh"]
+}
